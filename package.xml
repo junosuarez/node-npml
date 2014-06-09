@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<package xmlns="http://npm.im/npml" name="npml" version="0.1.0">
+  <author email="jason@denizac.org">jden</author>
+  <description>generate node packages with simple xml!</description>
+  <keywords>
+    <keyword>xml</keyword>
+    <keyword>the best</keyword>
+    <keyword>so extensible</keyword>
+    <keyword>very markup</keyword>
+    <keyword>such enterprise</keyword>
+    <keyword>wow</keyword>
+  </keywords>
+  <main>index.js</main>
+  <scripts>
+    <script name="test">mocha</script>
+    <script name="start">node index.js</script>
+  </scripts>
+  <repository>git@github.com:jden/node-npml.git</repository>
+  <license>ISC</license>
+  <readmeFilename>README.md</readmeFilename>
+  <dependencies>
+    <dependency name="cheerio" version="^0.16.0" />
+    <dependency name="through2" version="^0.5.1" />
+  </dependencies>
+  <devDependencies>
+    <dependency name="chai" version="^1.9.1" />
+    <dependency name="mocha" version="^1.19.0" />
+    <dependency name="concat-stream" version="^1.4.6" />
+  </devDependencies>
+</package>
